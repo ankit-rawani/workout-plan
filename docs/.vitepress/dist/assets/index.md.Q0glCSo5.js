@@ -1,0 +1,1 @@
+import{_ as t,C as o,c as n,o as a,G as r}from"./chunks/framework.DeTFkEVT.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),s={name:"index.md"};function c(d,i,p,_,m,l){const e=o("Workout");return a(),n("div",null,[r(e)])}const x=t(s,[["render",c]]);export{u as __pageData,x as default};

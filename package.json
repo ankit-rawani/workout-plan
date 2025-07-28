@@ -1,0 +1,21 @@
+{
+  "name": "workout-plan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.18"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0"
+  }
+}
