@@ -31,8 +31,10 @@ export function calculateCurrentPlan(date = new Date()) {
   // Calculate week within the cycle (1-4)
   const weekOfCycle = ((currentWeek - 1) % 4) + 1;
 
-  // Get day of week (1 = Monday, 7 = Sunday)
-  const dayOfWeek = ((date.getDay() + (7 - startDate.getDay())) % 7) + 1;
+  // Get day of week (1 = Tuesday, 7 = Monday)
+  const dayOfWeek = (diffInDays % 7) + 1;
+
+  console.log(diffInDays);
 
   return {
     cycle,
