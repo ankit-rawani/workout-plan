@@ -53,7 +53,7 @@ export default {
       availableCycles: Object.keys(workoutData)
         .map(Number)
         .sort((a, b) => a - b),
-      startDate: "2025-06-30T00:00:00.000Z",
+      startDate: "2025-07-01T00:00:00.000Z",
       weeksPerCycle: 4,
     };
   },
